@@ -2,7 +2,7 @@
 import { useState } from 'react';
 
 export default function UploadFile() {
-  const [file, setFile] = useState(null);
+  const [file, setFile] = useState<File | null>(null);
 
   const handleFileChange = (event:any) => {
     console.log('we think a file was uploaded')
@@ -14,7 +14,7 @@ export default function UploadFile() {
       setFile(selectedFile);
     }
   };
-
+const fileName: string = file ? file.name : 'No file uploaded yet';
   return (
     <div className=" h-80 flex items-center justify-center w-full">
       <label htmlFor="dropzone-file" className="flex flex-col items-center justify-center w-full h-64 border-2 border-gray-300 border-dashed rounded-sm cursor-pointer bg-gray-50 dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600">
