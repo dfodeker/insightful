@@ -1,8 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Insightful
+
+## Overview
+Document Insights Platform is a web application designed to simplify the analysis of large documents. It enables users to upload documents in HTML, DOCX, and PDF formats and provides tools for summarizing content, analyzing trends, and comparing documents for in-depth insights.
+
+## Features
+- **Document Upload**: Securely upload documents with a simple drag-and-drop interface.
+- **Comprehensive Analysis**: Extract key information, trends, and patterns from your documents.
+- **Document Comparison**: Compare multiple documents side-by-side for detailed insights.
+- **Interactive Summaries**: Get concise summaries and explore documents with interactive queries.
+- **Data Visualization**: Visualize document trends with intuitive charts and graphs.
 
 ## Getting Started
+To get started with Document Insights Platform, follow these steps:
 
-First, run the development server:
+### Prerequisites
+- Node.js (v14 or higher recommended)
+- npm (v6 or higher)
+
+### Installation
+1. Clone the repository: `git clone https://github.com/dfodeker/insightful.git`
+2. Navigate to the project directory: `cd insightful`
+3. install dependencies : `npm install`
+
+
+### Running the application 
 
 ```bash
 npm run dev
@@ -14,23 +35,33 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This will start the Next.js development server, and the application will be available at `http://localhost:3000`.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Usage
+After running the application, navigate to `http://localhost:3000` in your web browser. Follow the on-screen instructions to upload and analyze your documents.
 
-## Learn More
+## Contributing
+We welcome contributions to the Document Insights Platform! Please read our CONTRIBUTING.md to see how you can make a difference.
 
-To learn more about Next.js, take a look at the following resources:
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Support
+If you encounter any issues or require assistance, please file an issue on the GitHub repository issue tracker.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Authors
+- Derek Fodeke-Rodgers- Initial work - [dfodeker](https://github.com/dfodeker)
 
-## Deploy on Vercel
+See also the list of [contributors](https://github.com/dfodeker/insightful/contributors) who participated in this project.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Acknowledgments
+- Thank the individuals or organizations whose code was used
+- Inspiration
+- References
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+
