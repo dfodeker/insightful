@@ -51,7 +51,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 If you encounter any issues or require assistance, please file an issue on the GitHub repository issue tracker.
 
 ## Authors
-- Your Name - Initial work - [YourGitHubUsername](https://github.com/dfodeker)
+- Derek Fodeke-Rodgers- Initial work - [dfodeker](https://github.com/dfodeker)
 
 See also the list of [contributors](https://github.com/dfodeker/insightful/contributors) who participated in this project.
 
