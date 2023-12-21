@@ -37,6 +37,7 @@ bun dev
 
 
 This will start the Next.js development server, and the application will be available at `http://localhost:3000`.
+this project is not funtional at the moment
 
 ## Usage
 After running the application, navigate to `http://localhost:3000` in your web browser. Follow the on-screen instructions to upload and analyze your documents.
